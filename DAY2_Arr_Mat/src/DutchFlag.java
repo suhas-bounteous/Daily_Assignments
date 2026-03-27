@@ -12,7 +12,7 @@ public class DutchFlag {
                 mid++;
             } else if (nums[mid] == 1) {
                 mid++;
-            } else { // nums[mid] == 2
+            } else {
                 swap(nums, mid, high);
                 high--;
             }
